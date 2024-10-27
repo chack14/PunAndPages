@@ -24,11 +24,11 @@ header{
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
+    max-height: 100%;
+    align-items: center;
+    text-align: center;
 }
-.logo a{
-    color:#fff;
-    text-decoration: none;
-}
+
 nav{
     display: flex;
     align-items: center;
@@ -50,7 +50,7 @@ nav ul li a{
     transition: 0.4s ease;
 }
 nav ul li a:hover{
-    color:#666;
+    color:#ffffcc;
 }
 .search{
     position: relative;
@@ -72,6 +72,12 @@ nav ul li a:hover{
     background-color: #fff;
     color: #444;
     font-weight: bold;
+}
+.logo a{
+    color:#fff;
+    text-decoration: none;
+    align-self: center;
+    
 }
 .hero{
     background-color: #ffffcc;
@@ -133,7 +139,7 @@ nav ul li a:hover{
     transition: 0.4s ease;
 }
 .btn:hover{
-    background-color: #555;
+    background-color: #ffffcc
 }
 footer{
     background-color: #262626;
@@ -149,7 +155,7 @@ footer{
 }
 
 .logo{
-    display: block;
+    display: flex;
     align-items: center;
 }
 
